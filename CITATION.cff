@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: A construction cost escalation index for data centres in the United States
+message: If you use this index or code, please cite the accompanying paper.
+type: software
+authors:
+  - family-names: Dutta
+    given-names: Sweta
+    orcid: https://orcid.org/0009-0007-2162-3564
+license: MIT
+repository-code: https://github.com/dutta-sweta/dcci-index
+abstract: >-
+  Code and public data for a monthly fixed-weight Laspeyres input-cost index for
+  data-centre construction in the United States, 2005-2026, with escalation
+  decomposition, an office-index drift test, and a forecast benchmark.
+keywords:
+  - construction cost index
+  - data centre
+  - producer price index
+  - Laspeyres index
+  - time-series forecasting

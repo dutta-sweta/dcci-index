@@ -1,0 +1,24 @@
+series_id,title,units,adjustment,frequency,start,end,n
+AHECONS,"Average Hourly Earnings of Production and Nonsupervisory Employees, Co",Dollars per Hour,Not Seasonally Adjusted,Monthly,1947-01-01,2026-07-01,955
+CES2000000003,"Average Hourly Earnings of All Employees, Construction",Dollars per Hour,Seasonally Adjusted,Monthly,2006-03-01,2026-07-01,245
+CEU2000000003,"Average Hourly Earnings of All Employees, Construction",Dollars per Hour,Not Seasonally Adjusted,Monthly,2006-03-01,2026-07-01,245
+CIU2012300000000I,Employment Cost Index: Total compensation for Private industry workers,Index Dec 2005=100,Not Seasonally Adjusted,Quarterly,2001-01-01,2026-04-01,102
+ECICONWAG,Employment Cost Index: Wages and Salaries: Private Industry Workers: C,Index Dec 2005=100,Seasonally Adjusted,Quarterly,2001-01-01,2026-04-01,102
+PCU236211236211,Producer Price Index by Industry: New Industrial Building Construction,Index Jun 2007=100,Not Seasonally Adjusted,Monthly,2007-06-01,2026-07-01,230
+PCU236221236221,Producer Price Index by Industry: New Warehouse Building Construction,Index Dec 2004=100,Not Seasonally Adjusted,Monthly,2004-12-01,2026-07-01,260
+PCU236223236223,Producer Price Index by Industry: New Office Building Construction,Index Jun 2006=100,Not Seasonally Adjusted,Monthly,2006-06-01,2026-07-01,242
+PCU327320327320,Producer Price Index by Industry: Ready-Mix Concrete Manufacturing,Index Jun 1981=100,Not Seasonally Adjusted,Monthly,1965-01-01,2026-07-01,739
+PCU332312332312,Producer Price Index by Industry: Fabricated Structural Metal Manufact,Index Dec 2003=100,Not Seasonally Adjusted,Monthly,2003-12-01,2026-07-01,272
+PCU333415333415,"Producer Price Index by Industry: Air-Conditioning, Refrigeration, and",Index Dec 1982=100,Not Seasonally Adjusted,Monthly,1977-12-01,2026-07-01,584
+PCU333611333611,Producer Price Index by Industry: Turbine and Turbine Generator Set Un,Index Jun 1982=100,Not Seasonally Adjusted,Monthly,1982-06-01,2026-07-01,530
+PCU333618333618,Producer Price Index by Industry: Other Engine Equipment Manufacturing,Index Dec 1982=100,Not Seasonally Adjusted,Monthly,1967-01-01,2026-07-01,715
+PCU335311335311,Producer Price Index by Industry: Electric Power and Specialty Transfo,Index Jun 1981=100,Not Seasonally Adjusted,Monthly,1967-01-01,2026-07-01,715
+PCU335313335313,Producer Price Index by Industry: Switchgear and Switchboard Apparatus,Index Jun 1985=100,Not Seasonally Adjusted,Monthly,1985-06-01,2026-07-01,494
+PCU3353133353133,Producer Price Index by Industry: Switchgear and Switchboard Apparatus,Index Jun 1985=100,Not Seasonally Adjusted,Monthly,1967-01-01,2026-07-01,713
+WPU1017,Producer Price Index by Commodity: Metals and Metal Products: Steel Mi,Index 1982=100,Not Seasonally Adjusted,Monthly,1939-01-01,2022-04-01,1000
+WPU101704,Producer Price Index by Commodity: Metals and Metal Products: Hot Roll,Index Jun 1982=100,Not Seasonally Adjusted,Monthly,1982-06-01,2026-07-01,530
+WPU10260314,Producer Price Index by Commodity: Metals and Metal Products: Copper W,Index Dec 1986=100,Not Seasonally Adjusted,Monthly,1986-12-01,2026-07-01,475
+WPU10260332,Producer Price Index by Commodity: Metals and Metal Products: Power Wi,Index Jun 2004=100,Not Seasonally Adjusted,Monthly,2004-06-01,2026-07-01,254
+WPU117409,Producer Price Index by Commodity: Machinery and Equipment: Power and ,Index Dec 1999=100,Not Seasonally Adjusted,Monthly,1999-12-01,2026-07-01,320
+WPU1175,Producer Price Index by Commodity: Machinery and Equipment: Switchgear,Index 1982=100,Not Seasonally Adjusted,Monthly,1947-01-01,2026-07-01,954
+WPU801,Producer Price Index by Commodity: Construction (Partial): New Nonresi,Index Jun 2009=100,Not Seasonally Adjusted,Monthly,2009-06-01,2026-07-01,206
