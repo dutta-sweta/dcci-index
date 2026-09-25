@@ -2,14 +2,14 @@
 """
 07_figures.py — publication figures.
 
-Tehnički vjesnik prints black and white; colour survives only in the PDF. So
-every series carries identity three ways - hue, line style, and marker - and
+Figures are built greyscale-safe: printed monochrome or photocopied, colour is
+the first thing to go. So every series carries identity three ways - hue, line style, and marker - and
 the palette is chosen for *luminance* separation, which is what greyscale
 actually preserves. That separation is asserted below rather than eyeballed:
 if two series would collapse in print the script fails instead of shipping.
 
-Other house constraints: two-column width (~8.4 cm single, ~17 cm double),
-text no smaller than 6 pt, 300 dpi, no dual axes anywhere.
+Other constraints: sized for a two-column journal page and placed at native
+resolution, text no smaller than 6 pt, 300 dpi, no dual axes anywhere.
 """
 from __future__ import annotations
 from pathlib import Path

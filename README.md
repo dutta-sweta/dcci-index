@@ -1,7 +1,7 @@
 # A construction cost escalation index for data centres in the United States
 
-Code and data for the paper of that title, submitted to *Tehnički vjesnik –
-Technical Gazette*.
+Code and data for the paper of that title, submitted to the *Suranaree Journal
+of Science and Technology*.
 
 Everything here runs on free public data from the U.S. Census Bureau and the
 Bureau of Labor Statistics. No proprietary or employer data is used anywhere in
@@ -33,8 +33,15 @@ python3 src/06_forecast.py --h 1 && python3 src/06_forecast.py --h 3
 python3 src/06_forecast.py --h 6 && python3 src/06_forecast.py --h 12
 python3 src/06_forecast.py --report
 python3 src/08_dm_hln.py      # Diebold-Mariano with the HLN small-sample correction
-python3 src/07_figures.py     # the four paper figures
+python3 src/07_figures.py     # Figures 1-3, plus the absolute-error chart
+python3 src/09_figure4_relative.py   # Figure 4 as published
 ```
+
+Figure 4 in the submitted paper is `fig4_forecast_skill.png`, which plots
+forecast error *relative to* ARIMA(1,1,1) across all four horizons. The
+absolute-error version `07_figures.py` still produces, `fig4_forecast_rmse.png`,
+is kept because the accuracy table already reports those levels and the journal
+asks that the same data not appear in both a table and a figure.
 
 Scripts resolve paths relative to themselves, so the repository can sit
 anywhere. `00_fetch.sh` re-downloads the raw inputs and is only needed to
@@ -68,11 +75,11 @@ Also: FRED's `/data/<ID>.txt` endpoint now returns HTML rather than plain text.
 ## Layout
 
 ```
-src/         nine scripts, in execution order
+src/         ten scripts, in execution order
 data/raw/    FRED series and Census workbooks, retrieved 27 Aug 2026
 data/interim/  parsed and aligned panels (parquet)
 tables/      dcci.csv is the index; the rest are results tables
-figures/     the four figures as they appear in the paper
+figures/     the four paper figures, plus the superseded absolute-error Fig. 4
 ```
 
 ## Licence

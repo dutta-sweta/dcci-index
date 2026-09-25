@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # ---------------------------------------------------------------------------
-# docket03/src/00_fetch.sh — inputs for the data-centre construction cost index
+# src/00_fetch.sh — inputs for the data-centre construction cost index
 #
 # RUN IN YOUR OWN macOS Terminal. fred.stlouisfed.org and census.gov are both
 # blocked by the egress proxy that Claude's sandbox and its Linux VM share.
 #
-#   cd "$HOME/Documents/Tehnički vjesnik Paper 2 /docket03"
+#   cd "$HOME/Documents/dcci-index"
 #   bash src/00_fetch.sh
 #
 # Small: about 10 MB total, under a minute. Resumable.
